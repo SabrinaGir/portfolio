@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: 'Varela Round', sans-serif;
-    background: rgb(228,232,238);
+    background: rgb(2,9,20);
     margin: 0;
     padding: 0;
 }
@@ -14,8 +14,9 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background: rgb(228,232,238);
-    background: linear-gradient( rgb(228,232,238), rgb(217,240,244));
+
+    background: rgb(2,9,20);
+    background: linear-gradient( rgb(2,9,20), rgb(16,35,55));
 }
 
 #name {
@@ -28,57 +29,62 @@ nav {
     display: flex;
     margin: 0;
     padding: 0;
-    padding-right: 10vw;
     gap: 30px;
     font-size: 28px;
     list-style-type: none;
 }
 
 #name a, .nav-link {
-    color: rgb(10, 85, 198);
+    color: #d1daee;
     text-decoration: none;
 }
 
 span {
     cursor: pointer;
+    padding-right: 5vw;
 }
 
-#hidden {
+#light-button, #dark-button {
+    color: #d1daee;
+}
+
+#light-button {
     display: none;
 }
 
 #intro {
-    background: rgb(18,107,237);
-    background: linear-gradient(rgb(10, 85, 198), rgb(101,236,169));
     width: 100vw;
     height: 100vh;
+    background: rgb(12,34,69);
+    background: linear-gradient(rgb(12,34,69), rgb(15,72,128));
 }
 
 #interests {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(101,236,169);
+    background-color: rgb(15,72,128);
     width: 100vw;
     height: 100vh;
 }
 
 #activity-container {
-    background: linear-gradient( rgb(228,232,238), rgb(217,240,244));
+    background: rgb(2,9,20);
+    background: linear-gradient( rgb(2,9,20), rgb(16,35,55));
     height: 80vh;
     width: 95vw;
     border-radius: 20px;
 }
 
 #projects {
-    background: rgb(101,236,169);
-    background: linear-gradient(rgb(101,236,169), rgb(10, 85, 198));
+    background: rgb(15,72,128);
+    background: linear-gradient(rgb(15,72,128), rgb(12,34,69));
     width: 100vw;
     height: 100vh;
 }
 
 footer {
-    background-color: rgb(10, 85, 198);
+    background-color: rgb(12,34,69);
     width: 100vw;
     height: 10vh;
 }

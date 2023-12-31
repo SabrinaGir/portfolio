@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background: rgb(228,232,238);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgb(228,232,238);
+    background: linear-gradient( rgb(228,232,238), rgb(217,240,244));
+}
+
+#name {
+    font-size: 35px;
+    margin: 0;
+    padding-left: 5vw;
+}
+
+#nav-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    font-size: 28px;
+    list-style-type: none;
+}
+
+#name a, .nav-link {
+    color: rgb(10, 85, 198);
+    text-decoration: none;
+}
+
+span {
+    cursor: pointer;
+    padding-right: 5vw;
+}
+
+#light-button {
+    display: none;
+}
+
+#intro {
+    background: rgb(18,107,237);
+    background: linear-gradient(rgb(10, 85, 198), rgb(101,236,169));
+    width: 100vw;
+    height: 100vh;
+}
+
+#interests {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(101,236,169);
+    width: 100vw;
+    height: 100vh;
+}
+
+#activity-container {
+    background: linear-gradient( rgb(228,232,238), rgb(217,240,244));
+    height: 80vh;
+    width: 95vw;
+    border-radius: 20px;
+}
+
+#projects {
+    background: rgb(101,236,169);
+    background: linear-gradient(rgb(101,236,169), rgb(10, 85, 198));
+    width: 100vw;
+    height: 100vh;
+}
+
+footer {
+    background-color: rgb(10, 85, 198);
+    width: 100vw;
+    height: 10vh;
+}
