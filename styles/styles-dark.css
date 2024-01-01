@@ -52,6 +52,14 @@ span {
     display: none;
 }
 
+#menu-open, #menu-close {
+    display: none;
+}
+
+#nav-mobile {
+    display: none;
+}
+
 #intro {
     width: 100vw;
     height: 100vh;

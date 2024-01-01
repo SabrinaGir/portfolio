@@ -26,3 +26,11 @@ function darkMode() {
 
     darkModeButton.style.display = 'inline-block';
 }
+
+// Hamburger Bar
+
+const menuOpenButton = document.querySelectorAll('span')[2];
+const menuCloseButton = document.querySelectorAll('span')[3];
+
+const mobileNav = document.querySelector('#nav-mobile');
+

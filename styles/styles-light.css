@@ -47,6 +47,15 @@ span {
     display: none;
 }
 
+
+#menu-open, #menu-close {
+    display: none;
+}
+
+#nav-mobile {
+    display: none;
+}
+
 #intro {
     background: rgb(18,107,237);
     background: linear-gradient(rgb(10, 85, 198), rgb(101,236,169));
