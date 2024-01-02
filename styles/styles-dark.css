@@ -44,7 +44,7 @@ span {
     padding-right: 5vw;
 }
 
-#light-button, #dark-button {
+#light-button, #dark-button, #menu-open, #menu-close {
     color: #d1daee;
 }
 
@@ -59,6 +59,17 @@ span {
 #nav-mobile {
     display: none;
 }
+
+@media (max-width: 1000px) {
+    #menu-open {
+        display: inline-block;
+    }
+
+    #nav-links {
+        display: none;
+    }
+}
+
 
 #intro {
     width: 100vw;

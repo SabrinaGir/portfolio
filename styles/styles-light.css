@@ -56,6 +56,16 @@ span {
     display: none;
 }
 
+@media (max-width: 1000px) {
+    #menu-open {
+        display: inline-block;
+    }
+
+    #nav-links {
+        display: none;
+    }
+}
+
 #intro {
     background: rgb(18,107,237);
     background: linear-gradient(rgb(10, 85, 198), rgb(101,236,169));
@@ -73,10 +83,34 @@ span {
 }
 
 #activity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: linear-gradient( rgb(228,232,238), rgb(217,240,244));
     height: 80vh;
     width: 95vw;
     border-radius: 20px;
+    gap: 20px;
+    
+}
+
+.activities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient( rgba(194, 217, 252, 0.883), rgb(217,240,244));
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.activities:hover > .activity { 
+    background-color: yellow; 
+}
+
+.activity {
+    height: 55%;
+    width: 70%;
 }
 
 #projects {

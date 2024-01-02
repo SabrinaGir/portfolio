@@ -34,3 +34,21 @@ const menuCloseButton = document.querySelectorAll('span')[3];
 
 const mobileNav = document.querySelector('#nav-mobile');
 
+menuOpenButton.addEventListener('click', openMenu);
+menuCloseButton.addEventListener('click', closeMenu);
+
+function openMenu() {
+    menuOpenButton.style.display = 'none';
+
+    mobileNav.style.display = 'block';
+
+    menuCloseButton.style.display = 'inline-block';
+}
+
+function closeMenu() {
+    menuCloseButton.style.display = 'none';
+
+    mobileNav.style.display = 'none';
+
+    menuOpenButton.style.display = 'inline-block';
+}
