@@ -104,6 +104,7 @@ span {
 
 footer {
     background-color: rgb(12,34,69);
+    padding-top: 20px;
     width: 100vw;
     height: 10vh;
 }
