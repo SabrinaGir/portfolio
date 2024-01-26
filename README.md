@@ -9,4 +9,5 @@
 - need to make my website responsive on mobile
     - make font size decrease at certain pixel size
 
-- have a bug displaying the two projects side by side; will come back tomorrow to fix it.
+- have a bug displaying the two projects side by side; will come back tomorrow to fix it. - SOLVED
+    - just a small mistake, i was applying flex to the children instead of the parent
