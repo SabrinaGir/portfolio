@@ -1,9 +1,11 @@
 # portfolio
 
 
+## Overview
 
+Here is a portfolio I made to showcase skills I have learnt through both learning as a hobby and through my first semester in the Computer Science Technology program. It will be updated as I learn more and attempt to put certain ideas in place.
 
-# Bugs / Challenges 
+## Bugs / Challenges 
 
 - I wasn't sure how to make the divs increase in size when you hover over them so I used this resource: https://www.w3schools.com/howto/howto_css_zoom_hover.asp - SOLVED
 
