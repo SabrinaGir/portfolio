@@ -69,7 +69,6 @@ span {
 
 #intro {
     background: rgb(18,107,237);
-    background: linear-gradient(rgb(10, 85, 198), rgb(101,236,169));
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -88,11 +87,23 @@ span {
     background-color: rgba(55, 59, 65, 0.5);
 }
 
+.section-title {
+    margin-left: 5%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 27px;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+
+
 #interests {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(101,236,169);
+    background: rgb(228,232,238);
+    background: linear-gradient( rgb(228,232,238), rgb(217,240,244));
     width: 100vw;
     height: 100vh;
 }
@@ -101,7 +112,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient( rgb(228,232,238), rgb(217,240,244));
+    background: rgb(160, 186, 225);
     height: 80vh;
     width: 90vw;
     border-radius: 20px;
@@ -129,7 +140,7 @@ span {
     height: 55%;
     width: 70%;
     border-radius: 15px;
-    background-color: rgb(228,232,238);
+    background-color: rgb(217, 231, 252);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,8 +148,8 @@ span {
 }
 
 #projects {
-    background: rgb(101,236,169);
-    background: linear-gradient(rgb(101,236,169), rgb(10, 85, 198));
+    
+    background: rgb(10, 85, 198);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -155,7 +166,7 @@ span {
     align-items: center;
     font-size: 29px;
     border-radius: 15px;
-    color: rgb(10, 85, 198);
+    color: rgb(5, 31, 74);
     text-decoration: none;
 }
 
@@ -170,8 +181,27 @@ span {
 }
 
 footer {
-    background-color: rgb(10, 85, 198);
+    border: 1px solid rgb(134, 177, 242);
+    color:  rgb(155, 177, 211);
     width: 100vw;
     height: 20vh;
     padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#references {
+    color: rgb(5, 31, 74);
+    margin-left: 2%;
+    font-size: 16px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: rgb(10, 85, 198);
+}
+
+#github-logo {
+   margin-right: 10px;
 }

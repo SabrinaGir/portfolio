@@ -14,9 +14,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-
-    background: rgb(2,9,20);
-    background: linear-gradient( rgb(2,9,20), rgb(16,35,55));
+    background: rgb(1, 6, 13);
+    background: linear-gradient( rgb(1,6,13), rgb(0, 0, 0));
 }
 
 #name {
@@ -35,7 +34,7 @@ nav {
 }
 
 #name a, .nav-link {
-    color: #d1daee;
+    color: rgb(209, 218, 238);
     text-decoration: none;
 }
 
@@ -74,7 +73,7 @@ span {
 #intro {
     width: 100vw;
     height: 80vh;
-    background: rgb(12,34,69);
+    background: rgb(11, 40, 87);
     background: linear-gradient(rgb(12,34,69), rgb(15,72,128));
     display: flex;
     justify-content: left;
@@ -128,12 +127,23 @@ span {
     transform:scale(1.3);
 }
 
+.section-title {
+    margin-left: 5%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 27px;
+    margin-left: 5%;
+    color: white;
+    border: 1px solid white;
+}
+
 .activity {
     border: 1px solid black;
     height: 55%;
     width: 70%;
     border-radius: 15px;
-    background-color: rgb(228,232,238);
+    color: white;
+    background-color: rgb(4, 17, 35);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,25 +166,51 @@ span {
 .project {
     width: 30%;
     height: 60%;
-    background-color: rgba(228,232,238, 0.5); 
+    background-color: rgba(53, 85, 132, 0.5); 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 29px;
     border-radius: 15px;
+    color: rgb(228,232,238);
+    text-decoration: none;
 }
 
 #etch-a-sketch {
     margin-left: 5%;
 }
 
-.project { 
-    transform:scale(1.3);
+
+#projects > .project:hover { 
+    transform:scale(1.1);
 }
 
+
+
 footer {
-    background-color: rgb(12,34,69);
+    border: 1px solid rgb(134, 177, 242);
+    color:  rgb(155, 177, 211);
+    /* background-color: rgb(12,34,69); */
     padding-top: 20px;
     width: 100vw;
-    height: 10vh;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+#references {
+    color: rgb(190, 214, 251);
+    margin-left: 2%;
+    font-size: 16px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: rgb(75, 136, 227);
+}
+
+#github-logo {
+   margin-right: 20px;
+}
+
