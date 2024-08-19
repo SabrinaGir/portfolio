@@ -1,115 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="styles/styles-light.css">
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabrina's Portfolio</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="src/app.js" defer></script>
 
-  <!-- Imported Fonts -->
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
-  
-  <!-- Imported Icons  -->
+    <!-- Imported font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  
 </head>
 <body>
+    <header>
+        <nav>
+            <!-- <a href="index.html" class="nav-link"> <img src="src/images/icons8-home.svg" id="home-logo"> </a> -->
 
-  <header id="top"> 
-    <nav> 
-      <h1 id="name"> <a href="#top">Sabrina Giroux</a> </h1>
+            <img src="src/images/icons8-home.svg" id="home-logo">
+            <ul id="nav-links">  
+                <li class="nav-link"> about </li>
+                <li class="nav-link"> projects </li>
+                <li class="nav-link"> contact </li>
+            </ul>
+        </nav>
 
-      <ul id="nav-links"> 
-        <li> <a href="#intro" class="nav-link">About</a> </li>
-        <li> <a href="#interests" class="nav-link">Interests</a> </li>
-        <li> <a href="#projects" class="nav-link">Projects</a> </li>
-      </ul>
-      <div>
-        <span class="material-symbols-outlined"  id="light-button">
-          light_mode
-        </span>
-        <span class="material-symbols-outlined" id="dark-button">
-          dark_mode
-        </span>
-        <span class="material-symbols-outlined" id="menu-open">
-          menu
-        </span>
-        <span class="material-symbols-outlined" id="menu-close">
-          close
-        </span>
-      </div>
-    </nav>
-    <section id="nav-mobile"> 
-      <ul id="nav-links-mobile"> 
-        <li> <a href="#intro" class="nav-link-mobile">About</a> </li>
-        <li> <a href="#interests" class="nav-link-mobile">Interests</a> </li>
-        <li> <a href="#projects" class="nav-link-mobile">Projects</a> </li>
-      </ul>
+    </header>
+    <section id="main">
+
+        <section id="info"> 
+            <section id="about"></section>
+            <section id="projects"></section>
+            <section id="contacts"></section>
+        </section>
+        <img src="src/images/nighthawks.jpg" id="artwork">
     </section>
+    <footer>
+        <!-- <p id="artwork-credit"> "Nighthawks" Edward Hopper</p> -->
+    </footer>
 
-    
-    <section id="intro"> 
-      <!-- <h2 class="section-title" d="welcome-title"> Welcome </h2> -->
-      <section id="welcome"> <p> Hi, my name is Sabrina and I've created this portfolio both to introduce myself by sharing my hobbies and to showcase my level of expertise in Javascript, CSS, and HTML. Additionally, I've shared two projects that I did for fun as well as a link to my Github account where I hope to add more projects in the future.</p>
-      </section>
-    </section>
-  </header>
-
-  <main> 
-    
-    <h2 class="section-title" id="interests-title"> Interests </h2>
-    <section id="interests">
-     
-      <section id="activity-container">
-        <article class="activities">
-          <figure class="activity" id="programming"> 
-            <h1> Programming </h1>
-            <img src="assets/programming.png"> 
-            <figcaption> </figcaption>
-        </figure>
-        </article>
-        <article class="activities">
-            <figure class="activity" id="aviation"> 
-              <h1> Aviation </h1>
-              <img src="assets/airplane.png"> 
-              <figcaption> </figcaption>
-          </figure>
-        </article>
-        <article class="activities">
-          <figure class="activity" id="piano"> 
-            <h1> Piano </h1>
-            <img src="assets/piano.png"> 
-            <figcaption> </figcaption>
-        </figure>
-        </article>
-
-      </section>
-    </section>
-    <h2 class="section-title" d="projects-title"> Projects </h2>
-    <section id="projects">
-      
-      <a href="https://sabrinagir.github.io/etch-a-sketch/" class="project"  id="etch-a-sketch">
-          <p> Etch-a-Sketch</p>
-      </a>
-      
-      <a href="https://sabrinagir.github.io/js-rps/" id="rock-paper-scissors" class="project"> 
-        <p> Rock Paper Scissors</p>
-      </a>
-    </section>
-  </main>
-
-  <footer>
-    <section id="references">
-      <p> Laptop: <a href="https://www.freepik.com/icon/programming_6062646#fromView=search&term=programming&track=ais&page=1&position=14&uuid=9a8b1999-612d-483f-b40f-e45f6e3a2739" target="_blank" class="footer-links">Icon by juicy_fish</a></p>
-      <p> Airplane: <a href="https://www.freepik.com/icon/airplane_1350222#fromView=search&term=plane&track=ais&page=1&position=6&uuid=34f4dfb3-1dd9-4c55-8b57-7ed838d77eca" target="_blank" class="footer-links">Icon by Freepik</a></p>
-      <p> Piano:  <a href="https://www.freepik.com/icon/piano_522104" target="_blank" class="footer-links">Icon by Freepik</a> </p>
-    </section>
-    <a href="https://github.com/SabrinaGir" target="_blank"><img id="github-logo" src="assets/github-mark.png" alt="github logo" style="width: 75px; height: 75px;"> </a>
-  </footer>
+    <!-- <a target="_blank" href="https://icons8.com/icon/59809/home">Home</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>-->
 </body>
 </html>
